@@ -13,10 +13,10 @@ Example:
 
 ```vb
 Private Sub CommandButton1_Click()
-	Dim myHttp As New Http
-	myHttp.init "https://api.publicapis.org"
-	Set result = myHttp.methodGet("entries")
-	Debug.Print result.ResponseText
+  Dim myHttp As New Http
+  myHttp.init "https://api.publicapis.org"
+  Set result = myHttp.methodGet("entries")
+  Debug.Print result.ResponseText
 End Sub
 ```
 
