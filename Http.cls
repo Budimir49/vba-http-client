@@ -9,12 +9,6 @@ Attribute VB_PredeclaredId = False
 Attribute VB_Exposed = False
 'Version 1.4
 
-'URL = https://wiki.merionet.ru
-'URN - images/vse-chto-vam-nuzhno-znat-pro-devops/1.png
-'URI – https://wiki.merionet.ru/images/vse-chto-vam-nuzhno-znat-pro-devops/1.png
-'HOST - wiki.merionet.ru
-'PROTOKOL - https
-
 Private winHttpReq As Object
     
 Private url As String
