@@ -1,10 +1,5 @@
 A simple and easy-to-use HTTP client for VBA based on WinHttpRequest.
 
-Donate:
-
-- 1F1wLQEWfw7QCqFkwrkLcf2SZnMb6Wj8Bj (Bitcoin network BTC);
-- 0x6d3e448bbdf46b2fe8f9d4d92fcee7379597950e (Ethereum network ERC20).
-
 # 1. Quick Start
 
 Just add the **Http.cls** file to your VBA project. Create an instance of the Http class, call the **init()** method by passing it the URL (not to be confused with URI), and call the **methodGet()** method by passing it the URN.
